@@ -2,11 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kahila Is Cooking</title>
-    <link>https://kahila.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Kahila Is Cooking</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://kahila.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Apr 2025 01:01:05 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Me</title>
+      <link>http://localhost:1313/docs/me/</link>
+      <pubDate>Mon, 28 Apr 2025 01:01:05 +0200</pubDate>
+      <guid>http://localhost:1313/docs/me/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
