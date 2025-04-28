@@ -1,588 +1,204 @@
 <!DOCTYPE html>
-
-
-
-
-    
-
-    
-
-    
-
-    
-
-
-
-
-
-    
-    
-
-    
-    
-
-    
-    
-        
-        
-            
-                
-            
-                
-            
-                
-            
-        
-
-
-
-
-<html lang="en-us" dir="ltr"><head>
-	<meta name="generator" content="Hugo 0.147.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="utf-8" />
-    <title>Kahila Is Cooking</title>
-    <meta name="robots" content="noindex">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A Lightweight, Modern Documentation Theme for Hugo" />
-    <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
-    <meta name="author" content="Colin Wilson - Lotus Labs" />
-    <meta name="email" content="support@aigis.uk" />
-    <meta name="website" content="https://lotusdocs.dev" />
-    <meta name="Version" content="v0.1.0" />
-    
-    <link rel="icon" href="http://localhost:1313/favicon.ico" sizes="any">
-<link rel="icon" type="image/svg+xml" href="http://localhost:1313/favicon.svg">
-<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
-
-    
-
-    <link rel="stylesheet" href="/scss/style.css" />
-    
-    
-    
-    
-    
-    
-    
-        <script src="/js/bootstrap.js" defer></script>
-    
-    
-        
-            <script type="text/javascript" src="http://localhost:1313/js/image-compare.js" ></script>
-    </head><body>
-        <div>
-<header id="topnav">
-    <div class="container d-flex justify-content-between align-items-center">
-        
-        <a class="logo" aria-label="Home" href='/'>
-            
-                <?xml version="1.0" encoding="UTF-8"?><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250"><path d="m143,39.5c-18,0-18,18-18,18,0,0,0-18-18-18H22c-2.76,0-5,2.24-5,5v143c0,2.76,2.24,5,5,5h76c7.2,0,8.64,11.52,8.93,16.13.07,1.05.95,1.87,2,1.87h32.14c1.06,0,1.94-.82,2-1.87.29-4.61,1.73-16.13,8.93-16.13h76c2.76,0,5-2.24,5-5V44.5c0-2.76-2.24-5-5-5h-85Zm63,123.5c0,1.38-1.12,2.5-2.5,2.5h-60.5c-18,0-18,18-18,18,0,0,0-18-18-18h-60.5c-1.38,0-2.5-1.12-2.5-2.5v-94c0-1.38,1.12-2.5,2.5-2.5h51.5c7.2,0,8.64,11.52,8.93,16.13.07,1.05.95,1.87,2,1.87h32.14c1.06,0,1.94-.82,2-1.87.29-4.61,1.73-16.13,8.93-16.13h51.5c1.38,0,2.5,1.12,2.5,2.5v94Z" style="fill:#06f;"/></svg>
-            
-        </a>
-        
-
-        <div class="d-flex align-items-center">
-
-            <div id="navigation">
-                
-                <ul class="navigation-menu nav-right">
-                </ul>
-            </div>
-
-            
-            
-            
-
-            <div class="menu-extras ms-3 me-2">
-                <div class="menu-item">
-                    
-                    <button class="navbar-toggle btn btn-icon btn-soft-light" id="isToggle" aria-label="toggleMenu" onclick="toggleMenu()">
-                        <div class="lines">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </button>
-                    
-                </div>
-            </div>
-
-        </div>
-    </div>
-</header>
-</div>
-        <div class="mb-4" id="content">
-    
-    
-
-    
-        
-        
-        
-        
-            
-        
-    
-        
-        
-        
-        
-            
-        
-    
-        
-        
-        
-        
-            
-        
-    
-
-    
-        
-        
-        
-
-
-
-
-    
-    
-    
-    
-        <style>
-            .hero {
-                
-                    
-                        @media (min-width: 768px) {
-                            background-image: url("/images/templates/hero/gradient-desktop.webp");
-                        }
-                    
-                
-                
-                    
-                        background-image: url("/images/templates/hero/gradient-mobile.webp");
-                    
-                
-            }
-        </style>
-
-<section id="hero" class="d-table w-100 overflow-hidden hero">
-    <div class="container">
-        <div class="row mt-5 align-items-center">
-
-            <div class="col-lg-6 col-md-6">
-                <div class="title-heading">
-                    
-                    <span class="badge  bg-soft-primary mb-1">v0.1.0</span>
-                    
-                    <h4 class="heading mt-0 mb-3">
-                        
-                        Lotus Docs
-                    </h4>
-                    
-                    <p class="para-desc text-muted mb-0">A lightweight, <strong>modern documentation</strong> theme for Hugo. Easily customised for building <strong>fast</strong>, <strong>secure</strong>, and <strong>SEO-friendly</strong> documentation sites.</p>
-                    
-
-                    <div class="mt-3">
-                        
-                            <a href="/docs/quickstart/#create-a-new-lotus-docs-site" class="btn btn-lg btn-primary me-2 mt-2">
-                                
-                                    <span class="material-icons align-middle">rocket_launch</span>
-                                
-                                
-                                    Get Started
-                                
-                            </a>
-                        
-                        
-                        <a href="https://github.com/colinwilson/lotusdocs" class="btn btn-lg btn-outline-primary mt-2">
-                            
-                                <span class="material-icons align-middle">construction</span>
-                            
-                            
-                                In Development
-                            
+<html lang="en" dir="ltr">
+   <head>
+      <meta name="generator" content="Hugo 0.147.0">
+      <script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+      <meta charset="utf-8" />
+      <title>KAHILA</title>
+      <meta name="robots" content="noindex">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="A Lightweight, Modern Documentation Theme for Hugo" />
+      <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
+      <meta name="author" content="Colin Wilson - Lotus Labs" />
+      <meta name="email" content="support@aigis.uk" />
+      <meta name="website" content="https://lotusdocs.dev" />
+      <meta name="Version" content="v0.1.0" />
+      <link rel="icon" href="//localhost:1313/favicon.ico" sizes="any">
+      <link rel="icon" type="image/svg+xml" href="//localhost:1313/favicon.svg">
+      <link rel="apple-touch-icon" sizes="180x180" href="//localhost:1313/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
+      <link rel="manifest" crossorigin="use-credentials" href="//localhost:1313/site.webmanifest">
+      <link rel="preconnect" href="https://fonts.gstatic.com/" />
+      <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+      <link href="https://fonts.googleapis.com/css?family=Inter:300,400,600,700|Fira+Code:500,700&display=block" rel="stylesheet">
+      <link rel="stylesheet" href="/scss/style.css" />
+      <script src="/js/bootstrap.js" defer></script>
+      <script type="text/javascript" src="//localhost:1313/js/image-compare.js" ></script>
+   </head>
+   <body>
+      <div>
+         <header id="topnav">
+            <div class="container d-flex justify-content-between align-items-center">
+               <a class="logo" aria-label="Home" href='/'>
+                  <?xml version="1.0" encoding="UTF-8"?>
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250">
+                     <path d="m143,39.5c-18,0-18,18-18,18,0,0,0-18-18-18H22c-2.76,0-5,2.24-5,5v143c0,2.76,2.24,5,5,5h76c7.2,0,8.64,11.52,8.93,16.13.07,1.05.95,1.87,2,1.87h32.14c1.06,0,1.94-.82,2-1.87.29-4.61,1.73-16.13,8.93-16.13h76c2.76,0,5-2.24,5-5V44.5c0-2.76-2.24-5-5-5h-85Zm63,123.5c0,1.38-1.12,2.5-2.5,2.5h-60.5c-18,0-18,18-18,18,0,0,0-18-18-18h-60.5c-1.38,0-2.5-1.12-2.5-2.5v-94c0-1.38,1.12-2.5,2.5-2.5h51.5c7.2,0,8.64,11.52,8.93,16.13.07,1.05.95,1.87,2,1.87h32.14c1.06,0,1.94-.82,2-1.87.29-4.61,1.73-16.13,8.93-16.13h51.5c1.38,0,2.5,1.12,2.5,2.5v94Z" style="fill:#06f;"/>
+                  </svg>
+               </a>
+               <div class="d-flex align-items-center">
+                  <ul class="social-link d-flex list-inline mb-0">
+                     <li class="list-inline-item mb-0">
+                        <a href=" https://github.com/Kahila" alt="github" rel="noopener noreferrer" target="_blank">
+                           <div class="btn btn-icon btn-landing border-0">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                 <title>GitHub</title>
+                                 <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                              </svg>
+                           </div>
                         </a>
-                        
-                    </div>
-
-                    
-                    <p class="text-muted mb-0 mt-3"><strong>Open Source</strong> MIT Licensed.</p>
-                    
-                </div>
+                     </li>
+                     <li class="list-inline-item mb-0">
+                        <a href=" https://app.hackthebox.com/profile/218645 " alt="HTB" rel="noopener noreferrer" target="_blank">
+                           <div class="btn btn-icon btn-landing border-0">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                 <title>Hack The Box</title>
+                                 <path d="M11.996 0a1.119 1.119 0 0 0-.057.003.9.9 0 0 0-.236.05.907.907 0 0 0-.165.079L1.936 5.675a.889.889 0 0 0-.445.77v11.111a.889.889 0 0 0 .47.784l9.598 5.541.054.029v.002a.857.857 0 0 0 .083.035l.012.004c.028.01.056.018.085.024.01.001.011.003.016.004a.93.93 0 0 0 .296.015.683.683 0 0 0 .086-.015c.01 0 .011-.002.016-.004a.94.94 0 0 0 .085-.024l.012-.004a.882.882 0 0 0 .083-.035v-.002a1.086 1.086 0 0 0 .054-.029l9.599-5.541a.889.889 0 0 0 .469-.784V6.48l-.001-.026v-.008a.889.889 0 0 0-.312-.676l-.029-.024c0-.002-.01-.005-.01-.007a.899.899 0 0 0-.107-.07L12.453.127A.887.887 0 0 0 11.99 0zm.01 2.253c.072 0 .144.019.209.056l6.537 3.774a.418.418 0 0 1 0 .724l-6.537 3.774a.418.418 0 0 1-.418 0L5.26 6.807a.418.418 0 0 1 0-.724l6.537-3.774a.42.42 0 0 1 .209-.056zm-8.08 6.458a.414.414 0 0 1 .215.057l6.524 3.766a.417.417 0 0 1 .208.361v7.533a.417.417 0 0 1-.626.361l-6.523-3.766a.417.417 0 0 1-.209-.362V9.13c0-.241.196-.414.41-.418zm16.16 0c.215.004.41.177.41.418v7.532a.42.42 0 0 1-.208.362l-6.524 3.766a.417.417 0 0 1-.626-.361v-7.533c0-.149.08-.286.209-.36l6.523-3.767a.415.415 0 0 1 .216-.057z" fill="currentColor"/>
+                              </svg>
+                           </div>
+                        </a>
+                     </li>
+                  </ul>
+                  <div class="menu-extras ms-3 me-2">
+                     <div class="menu-item">
+                        <button class="navbar-toggle btn btn-icon btn-soft-light" id="isToggle" aria-label="toggleMenu" onclick="toggleMenu()">
+                           <div class="lines">
+                              <span></span>
+                              <span></span>
+                              <span></span>
+                           </div>
+                        </button>
+                     </div>
+                  </div>
+               </div>
             </div>
+         </header>
+      </div>
+      <div class="mb-4" id="content">
+         <style>
+            .hero {
+            @media (min-width: 768px) {
+            background-image: url("/images/templates/hero/gradient-desktop.webp");
+            }
+            background-image: url("/images/templates/hero/gradient-mobile.webp");
+            }
+         </style>
 
-            <div class="col-lg-6 col-md-6 mt-4 pt-4 mt-sm-0 pt-sm-0">
-                
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                        <div class="ms-lg-4">
-                            <div class="classic-hero-image">
-                                
-                                    
-                                        
-                                            <img src="/images/lotus_docs_screenshot_hu_96a4be244a204161.webp" class="shadow-lg mx-auto d-block rounded-top-4" width="1349" height="768" alt="Lotus Docs Screenshot">
-                                        
-                                    
-                                
-                            </div>
+         <section id="featureGrid">
+            <div class="container mt-100 mt-60">
+               <div class="row justify-content-center">
+                  <div class="col-12 text-center">
+                     <div class="section-title">
+                        <h4 class="title fw-bold mb-4">Writing• Building• Learning•</h4>
+                        <p class="text-muted para-desc mb-4 pb-2 mx-auto">Welcome to my digital space — a collection of notes, blog posts, experiments, and learnings. This is where I explore ideas, build things, break them, and document the journey along the way. Whether it’s a quick thought, a deep dive, or a work-in-progress, it all lives here.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-lg-12">
+                     <div class="row">
+                        <div class="col-md-4 col-12">
+                           <div class="d-flex features feature-primary p-3">
+                              <div class="icon text-center rounded-3 text-primary me-3">
+                                 <i class="material-icons align-middle h4 mb-0">table_lamp</i>
+                              </div>
+                              <div class="flex-1">
+                                 <h4 class="title">Study Notes</h4>
+                                 <p class="text-muted para mb-0">A collection of topics I’m learning or have learned over time. It also includes notes from certifications I’ve earned and random thoughts on various subjects.</p>
+                                 <div class="mt-2">
+                                    <a href="/notes/" class="mt-3 h6 text-primary">View <i class="material-icons align-top">chevron_right</i></a>
+                                 </div>
+                              </div>
+                           </div>
                         </div>
-                    
-                
+                        <div class="col-md-4 col-12">
+                           <div class="d-flex features feature-primary p-3">
+                              <div class="icon text-center rounded-3 text-primary me-3">
+                                 <i class="material-icons align-middle h4 mb-0">skull</i>
+                              </div>
+                              <div class="flex-1">
+                                 <h4 class="title">Write-Ups</h4>
+                                 <p class="text-muted para mb-0">Detailed write-ups on various topics, including hacking challenges, labs, and problem-solving exercises. Each write-up reflects my approach, insights, and the lessons learned from tackling these challenges.</p>
+                                 <div class="mt-2">
+                                    <a href="/write_up/" class="mt-3 h6 text-primary">View <i class="material-icons align-top">chevron_right</i></a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-4 col-12">
+                           <div class="d-flex features feature-primary p-3">
+                              <div class="icon text-center rounded-3 text-primary me-3">
+                                 <i class="material-icons align-middle h4 mb-0">code</i>
+                              </div>
+                              <div class="flex-1">
+                                 <h4 class="title">Projects</h4>
+                                 <p class="text-muted para mb-0">Tools and projects I’ve built to make tasks easier, whether through hardware or software. From automation scripts to custom devices, these projects are the result of practical experimentation and problem-solving.</p>
+                                 <div class="mt-2">
+                                    <a href="/projects/" class="mt-3 h6 text-primary">View <i class="material-icons align-top">chevron_right</i></a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-4 col-12">
+                           <div class="d-flex features feature-primary p-3">
+                              <div class="icon text-center rounded-3 text-primary me-3">
+                                 <i class="material-icons align-middle h4 mb-0">ink_pen</i>
+                              </div>
+                              <div class="flex-1">
+                                 <h4 class="title">Blog</h4>
+                                 <p class="text-muted para mb-0">In this section, I share both technical and non-technical posts on cybersecurity. From exploring security vulnerabilities and discussing the latest trends to offering insights on digital privacy and online safety, these blogs reflect my thoughts and experiences in the field.</p>
+                                 <div class="mt-2">
+                                    <a href="/blog/" class="mt-3 h6 text-primary">View <i class="material-icons align-top">chevron_right</i></a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <div class="d-flex features feature-primary p-3">
+                               <div class="icon text-center rounded-3 text-primary me-3">
+                                  <i class="material-icons align-middle h4 mb-0">chat</i>
+                               </div>
+                               <div class="flex-1">
+                                  <h4 class="title">Reach Out</h4>
+                                  <p class="text-muted para mb-0">I’m always learning new things and exploring fresh ideas in technology and cybersecurity. If you'd like to share knowledge or provide feedback on any of my content, feel free to get in touch!</p>
+                                  <div class="mt-2">
+                                     <a href="/contact/" class="mt-3 h6 text-primary">View <i class="material-icons align-top">chevron_right</i></a>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-
-        </div>
-    </div> 
-</section>
-
-
-
-    
-        
-        
-        
-
-
-
-<section id="featureGrid">
-    <div class="container mt-100 mt-60">
-        <div class="row justify-content-center">
-            <div class="col-12 text-center">
-                <div class="section-title">
-                    
-                        <h4 class="title fw-bold mb-4">Why choose Lotus Docs?</h4>
-                    
-                    
-                        <p class="text-muted para-desc mb-4 pb-2 mx-auto">Lotus Docs is a highly configurable Hugo documentation theme. Yet, with the default configuration you can deploy and publish your documentation site in a matter of minutes. Check out some core features below.</p>
-                    
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="row">
-                    
-                        <div class="col-md-4 col-12">
-                            <div class="d-flex features feature-primary p-3">
-                                <div class="icon text-center rounded-3 text-primary me-3">
-                                    <i class="material-icons align-middle h4 mb-0">speed</i>
-                                </div>
-                                <div class="flex-1">
-                                    <h4 class="title">Fast</h4>
-                                    <p class="text-muted para mb-0">4 x 100&rsquo;s score on Google Lighthouse by default. Lotus Docs removes unused CSS, prefetches asset links, and lazy loads content images.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        
-                    
-                        <div class="col-md-4 col-12">
-                            <div class="d-flex features feature-primary p-3">
-                                <div class="icon text-center rounded-3 text-primary me-3">
-                                    <i class="material-icons align-middle h4 mb-0">trending_up</i>
-                                </div>
-                                <div class="flex-1">
-                                    <h4 class="title">SEO Friendly</h4>
-                                    <p class="text-muted para mb-0">Data is automatically structured to be SEO friendly. Includes Meta tags, Opengraph, and Twitter cards. Choose the settings that best suit you.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        
-                    
-                        <div class="col-md-4 col-12">
-                            <div class="d-flex features feature-primary p-3">
-                                <div class="icon text-center rounded-3 text-primary me-3">
-                                    <i class="material-icons align-middle h4 mb-0">lock</i>
-                                </div>
-                                <div class="flex-1">
-                                    <h4 class="title">Secure by default</h4>
-                                    <p class="text-muted para mb-0">Lotus Docs&rsquo; default configuration scores A+ on Mozilla Observatory. You can update the default Security Headers to suit your requirements.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        
-                    
-                        <div class="col-md-4 col-12">
-                            <div class="d-flex features feature-primary p-3">
-                                <div class="icon text-center rounded-3 text-primary me-3">
-                                    <i class="material-icons align-middle h4 mb-0">settings</i>
-                                </div>
-                                <div class="flex-1">
-                                    <h4 class="title">Optional Features</h4>
-                                    <p class="text-muted para mb-0">Many Lotus Docs features are configurable via optional parameters. Require DocSearch for your site? Then enable it via a single setting.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        
-                    
-                        <div class="col-md-4 col-12">
-                            <div class="d-flex features feature-primary p-3">
-                                <div class="icon text-center rounded-3 text-primary me-3">
-                                    <i class="material-icons align-middle h4 mb-0">change_history</i>
-                                </div>
-                                <div class="flex-1">
-                                    <h4 class="title">Deploy to Vercel</h4>
-                                    <p class="text-muted para mb-0">Deploy to Vercel in seconds. Vercel Functions, Vercel Redirects/Rewrites, and Vercel Headers are all configurable for an enriched experience.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        
-                    
-                        <div class="col-md-4 col-12">
-                            <div class="d-flex features feature-primary p-3">
-                                <div class="icon text-center rounded-3 text-primary me-3">
-                                    <i class="material-icons align-middle h4 mb-0">dark_mode</i>
-                                </div>
-                                <div class="flex-1">
-                                    <h4 class="title">Dark Mode</h4>
-                                    <p class="text-muted para mb-0">Prefer not to be blasted by the sun while reading? Switch to a low-light UI with the click of a button. Modify colour variables to match your branding.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        
-                    
-                        <div class="col-md-4 col-12">
-                            <div class="d-flex features feature-primary p-3">
-                                <div class="icon text-center rounded-3 text-primary me-3">
-                                    <i class="material-icons align-middle h4 mb-0">search</i>
-                                </div>
-                                <div class="flex-1">
-                                    <h4 class="title">Search by DocSearch</h4>
-                                    <p class="text-muted para mb-0">Search your docs with DocSearch. A powerful, efficient and accessible search solution built on Algolia Crawler &amp; Autocomplete.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        
-                    
-                        <div class="col-md-4 col-12">
-                            <div class="d-flex features feature-primary p-3">
-                                <div class="icon text-center rounded-3 text-primary me-3">
-                                    <i class="material-icons align-middle h4 mb-0">translate</i>
-                                </div>
-                                <div class="flex-1">
-                                    <h4 class="title">Multilingual Support</h4>
-                                    <p class="text-muted para mb-0">Lotus Docs supports Hugo&rsquo;s Multilingual Mode. Create documentation in multiple languages side by side with i18n support.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        
-                    
-                        <div class="col-md-4 col-12">
-                            <div class="d-flex features feature-primary p-3">
-                                <div class="icon text-center rounded-3 text-primary me-3">
-                                    <i class="material-icons align-middle h4 mb-0">palette</i>
-                                </div>
-                                <div class="flex-1">
-                                    <h4 class="title">Bootstrap v5</h4>
-                                    <p class="text-muted para mb-0">Built on Bootstrap 5, Lotus Docs allows for a familiar, flexible, and intuitive developer experience. Easily customise your site via SCSS variables and files.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        
-                    
-                </div>
-                
-            </div>
-            
-        </div>
-        
-    </div>
-    
-</section>
-
-
-
-    
-        
-        
-        
-
-
-<section id="imageCompare">
-    <div class="container mt-100 mt-60">
-        <div class="row justify-content-center">
-            <div class="col-12 text-center">
-                <div class="section-title mb-4 pb-2">
-                    
-                        <h4 class="title fw-bold mb-4">Customise The Lotus Docs Appearance</h4>
-                    
-                    
-                        <p class="text-muted para-desc mb-0 mx-auto">Much of Lotus Docs&rsquo; appearance can be customised. Dark mode is optional (enabled by default) and you can choose a Google font that suites you via the config parameters.</p>
-                    
-                </div>
-            </div>
-        </div>
-
-        <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-12 mt-3 pt-2 text-center">
-                <ul class="nav nav-pills nav-justified flex-column flex-sm-row rounded bg-primary" id="pills-tab-imageCompare" role="tablist">
-                    
-                        <li class="nav-item">
-                            <a class="nav-link rounded active" id="dark-mode-tab" data-bs-toggle="pill" href="#pills-imageCompare-dark-mode" role="tab" aria-controls="pills-dark-mode" aria-selected="false">
-                                <div class="text-center py-2">
-                                    <p class="mb-0 fs-6 fw-semibold">Dark Mode</p>
-                                </div>
-                            </a>
-                        </li>
-                    
-                        <li class="nav-item">
-                            <a class="nav-link rounded" id="custom-fonts-tab" data-bs-toggle="pill" href="#pills-imageCompare-custom-fonts" role="tab" aria-controls="pills-custom-fonts" aria-selected="false">
-                                <div class="text-center py-2">
-                                    <p class="mb-0 fs-6 fw-semibold">Custom Fonts</p>
-                                </div>
-                            </a>
-                        </li>
-                    
-                        <li class="nav-item">
-                            <a class="nav-link rounded" id="accent-color-tab" data-bs-toggle="pill" href="#pills-imageCompare-accent-color" role="tab" aria-controls="pills-accent-color" aria-selected="false">
-                                <div class="text-center py-2">
-                                    <p class="mb-0 fs-6 fw-semibold">Accent Color</p>
-                                </div>
-                            </a>
-                        </li>
-                    
-                </ul>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-12 mt-4 pt-2">
-                <div class="tab-content" id="pills-tab-imageCompareContent">
-                    
-                    <div class="tab-pane fade show active" id="pills-imageCompare-dark-mode" role="tabpanel" aria-labelledby="dark-mode-tab">
-                        <div class="row align-items-center">
-                            <div class="col-md-12">
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                    <div id="dark-mode-compare" class="image-compare rounded-md border">
-                                        
-                                            <img src="/images/screenshots/lotusdocs_dark_v0.8.webp" alt="/images/screenshots/lotusdocs_dark_v0.8.webp" />
-                                        
-                                        
-                                            <img src="/images/screenshots/lotusdocs_light_v0.8.webp" alt="/images/screenshots/lotusdocs_light_v0.8.webp" />
-                                        
-                                    </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="tab-pane fade show" id="pills-imageCompare-custom-fonts" role="tabpanel" aria-labelledby="custom-fonts-tab">
-                        <div class="row align-items-center">
-                            <div class="col-md-12">
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                    <div id="custom-fonts-compare" class="image-compare rounded-md border">
-                                        
-                                            <img src="/images/screenshots/lotusdocs_google_font_demo_inter_screenshot.webp" alt="/images/screenshots/lotusdocs_google_font_demo_inter_screenshot.webp" />
-                                        
-                                        
-                                            <img src="/images/screenshots/lotusdocs_google_font_demo_lifesavers_screenshot.webp" alt="/images/screenshots/lotusdocs_google_font_demo_lifesavers_screenshot.webp" />
-                                        
-                                    </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="tab-pane fade show" id="pills-imageCompare-accent-color" role="tabpanel" aria-labelledby="accent-color-tab">
-                        <div class="row align-items-center">
-                            <div class="col-md-12">
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                    <div id="accent-color-compare" class="image-compare rounded-md border">
-                                        
-                                            <img src="/images/screenshots/lotusdocs_blue_theme_colour.webp" alt="/images/screenshots/lotusdocs_blue_theme_colour.webp" />
-                                        
-                                        
-                                            <img src="/images/screenshots/lotusdocs_cardinal_theme_colour.webp" alt="/images/screenshots/lotusdocs_cardinal_theme_colour.webp" />
-                                        
-                                    </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-    
-    
-
-        </div>
-<footer class="footer footer-light footer-bar">
-    <div class="footer-py-30">
-        <div class="container text-center">
-            <div class="row align-items-center">
-                <div class="col-sm-6">
-                    <div class="text-sm-start">
+         </section>
+      </div>
+      <footer class="footer footer-light footer-bar">
+         <div class="footer-py-30">
+            <div class="container text-center">
+               <div class="row align-items-center">
+                  <div class="col-sm-6">
+                     <div class="text-sm-start">
                         <p class="mb-0">
-                            
-                            
+                           © 2025 Lotus Labs. Built with <a href="https://github.com/colinwilson/lotusdocs"><strong>Lotus Docs</strong></a>
                         </p>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
-                    
-                </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-</footer>
-
-        
-            <script type="text/javascript" src="http://localhost:1313/js/bundle.js" ></script>
-
-        
-        
-        <script>
-            const viewers = document.querySelectorAll(".image-compare");
-            let configs = [
-                {"addCircle":true,"addCircleBlur":false,"labelOptions":{"after":"Light","before":"Dark","onHover":false},"showLabels":true,"startingPoint":50},{"addCircle":true,"addCircleBlur":false,"controlColor":"#3C4257","labelOptions":{"after":"Life Saver","before":"Inter","onHover":false},"showLabels":true,"startingPoint":25},{"addCircle":true,"addCircleBlur":true,"labelOptions":{"after":"Cardinal","before":"Blue","onHover":false},"showLabels":true,"startingPoint":25}
-            ];
-            viewers.forEach((element, i) => {
-                let view = new ImageCompare(element, configs[i]).mount();
-            });
-        </script>
-        
-
-    </body>
+         </div>
+      </footer>
+      <script type="text/javascript" src="//localhost:1313/js/bundle.js" ></script>
+      <script>
+         const viewers = document.querySelectorAll(".image-compare");
+         let configs = [
+             {"addCircle":true,"addCircleBlur":false,"labelOptions":{"after":"Light","before":"Dark","onHover":false},"showLabels":true,"startingPoint":50},{"addCircle":true,"addCircleBlur":false,"controlColor":"#3C4257","labelOptions":{"after":"Life Saver","before":"Inter","onHover":false},"showLabels":true,"startingPoint":25},{"addCircle":true,"addCircleBlur":true,"labelOptions":{"after":"Cardinal","before":"Blue","onHover":false},"showLabels":true,"startingPoint":25}
+         ];
+         viewers.forEach((element, i) => {
+             let view = new ImageCompare(element, configs[i]).mount();
+         });
+      </script>
+   </body>
 </html>
